@@ -110,7 +110,7 @@ public class LanguageManager {
 
         Bukkit.getConsoleSender().sendMessage(main.Prefix() + "§aCurrent Language File:§6 " + lang);
 
-        this.curFile = new File("plugins/Lang", langFile);
+        this.curFile = new File("plugins/Language", langFile);
 
         this.curCFG = YamlConfiguration.loadConfiguration(curFile);
 
